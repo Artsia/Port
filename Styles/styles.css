@@ -1,0 +1,753 @@
+body {
+    box-sizing: border-box;
+    position: relative;
+    line-height: 1.5;
+    font-family: sans-serif;
+    overflow-x: hidden;
+    overflow-y: scroll;
+    font-family: 'Source Sans Pro', sans-serif;
+    background-color: #fff;
+}
+
+html {
+    font-size: 62.5%;
+    scroll-behavior: smooth;
+}
+
+* {
+    width: auto;
+}
+
+/*html*/
+
+@media only screen and (max-width: 75em) {
+    html {
+        font-size: 59%;
+    }
+}
+
+@media only screen and (max-width: 56.25em) {
+    html {
+        font-size: 56%;
+    }
+}
+
+@media only screen and (min-width: 112.5em) {
+    html {
+        font-size: 65%;
+    }
+}
+
+
+/*FULLSCREEN*/
+
+@media only screen and (min-width: 769px) {
+
+    .aboutSection {
+        font-size: 1.8rem;
+        line-height: 1.7;
+        height: 100vh;
+        min-height: 80rem;
+        max-height: 120rem;
+    }
+
+    .about-heading-content {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .five-zero-percent {
+        width: 4%;
+        margin-right: 5%;
+    }
+
+    /*.about-content-main {}*/
+
+    .about-content-details-para {
+
+        color: #555;
+        max-width: 60rem;
+        margin-bottom: 3rem;
+    }
+
+    .ephasize {
+        color: black;
+    }
+
+    .about-content {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .five-zero-percent {
+        flex: 1;
+        margin-left: 5%;
+    }
+
+    .five-zero-percent+.about__content-skills {
+        margin-left: 7rem;
+    }
+
+    .skills {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+
+
+    .skills__skill {
+        padding: 1rem 2rem;
+        margin-bottom: 1.5rem;
+        margin-right: 1.5rem;
+        font-size: 1.6rem;
+        background: rgba(153, 153, 153, 0.2);
+        border-radius: 5px;
+        font-weight: 700;
+        color: rgb(0, 0, 0);
+        text-align: center;
+    }
+}
+
+
+/*fullscreen-media -quries --END*/
+
+
+
+/*links in the about section*/
+
+.showLink {
+    text-decoration: underline;
+}
+
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    /**/
+    font-size: 1.8rem;
+    font-weight: 700;
+    letter-spacing: 1px;
+    /**/
+    position: fixed;
+    width: 100%;
+    z-index: 1000;
+    box-shadow: 0 10px 100px rgb(0 0 0 / 10%);
+    padding: 2rem 1rem;
+}
+
+.logoContainer {
+    display: flex;
+    width: auto;
+    align-items: center;
+}
+
+.navbar ul {
+    display: flex;
+    width: auto;
+}
+
+.headerlink {
+    padding: 2.2rem 3rem;
+    font-size: 1.6rem;
+    color: #333;
+    letter-spacing: 1px;
+    font-weight: 700;
+    transition: color .3s;
+}
+
+.headerlink:hover {
+    color: #003664;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+li {
+    list-style: none;
+
+}
+
+/*meium sized screens*/
+@media only screen and (max-width: 56.25em) {
+
+
+    .navbar {
+        padding: 0 2rem;
+    }
+
+    .headerlink {
+        padding: 1rem 0.6rem;
+        font-size: 1.5rem;
+
+    }
+
+    /*about section*/
+
+    .aboutSection {
+        margin-bottom: 10%;
+    }
+
+
+    /*projects**/
+
+
+}
+
+
+@media only screen and (max-width: 48.2em) {
+
+    
+    .navbar {
+        display: flex;
+        justify-content: center;
+        width: 200px;
+        
+
+
+    }
+
+    .navbar ul {
+        display: block;
+        width: 150px
+    }
+
+    .navbar li {
+        width: 100px;
+        border: 1px solid #333;
+    }
+
+    .navbar li a {
+        display: block;
+        width: 90px;
+        text-align: center;
+
+    }
+
+
+    .navbar li a:hover {
+        background-color: rgba(81, 171, 36, 0.589);
+        color: white;
+    }
+
+
+
+}
+
+
+
+@media only screen and (max-width: 37.5em) {
+    .headerlink {
+        display: none;
+    }
+}
+
+
+
+/*home section*/
+
+.home {
+    background-position: center;
+    height: 100vh;
+    min-height: 80rem;
+    max-height: 120rem;
+    position: relative;
+}
+
+.homeContent {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    max-width: 90rem;
+    width: 92%;
+}
+
+.home-info {
+    margin: 3rem auto 0 auto;
+    max-width: 80rem;
+}
+
+
+.home-text {
+    color: rgb(0, 0, 0);
+    font-size: 2.2rem;
+    text-align: center;
+    width: 100%;
+    line-height: 1.6;
+}
+
+.heading-primary {
+    font-size: 6rem;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    text-align: center;
+}
+
+.home-project-btn {
+    margin-top: 5rem;
+    text-align: center;
+}
+
+.btn {
+    background: rgba(81, 171, 36, 0.589);
+    color: rgb(255, 255, 255);
+    text-transform: uppercase;
+    border-radius: 5px;
+    box-shadow: 0 5px 15px 0 rgba(0, 0, 0, 0.15);
+    transition: transform .3s;
+    padding: 1rem 2rem;
+
+}
+
+.btnPadd {
+    padding: 1.5rem 8rem;
+    font-size: 2rem;
+}
+
+@media only screen and (max-width: 37.5em) {
+    .heading-primary {
+        font-size: 4.5rem;
+    }
+}
+
+@media only screen and (max-width: 37.5em) {
+    .home-text {
+        font-size: 2rem;
+    }
+}
+
+@media only screen and (max-width: 37.5em) {
+    .homeContent {
+        padding: 19rem 0 13rem 0;
+        margin: auto;
+        position: static;
+        transform: translate(0, 0);
+    }
+}
+
+@media only screen and (max-width: 37.5em) {
+    .home {
+        height: unset;
+        min-height: unset;
+    }
+}
+
+
+
+/* flex-ABOUT */
+
+
+.main-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+@media only screen and (max-width:37.5em) {
+    .about-heading-content {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        font-size: 1rem;
+    }
+}
+
+
+.about-heading {
+    font-size: 4rem;
+}
+
+
+@media only screen and (max-width:37.5em) {
+    .about-heading {
+
+        font-size: 2.5rem;
+    }
+}
+
+
+.about-info {
+    font-size: 2rem;
+}
+
+@media only screen and (max-width:37.5em) {
+
+    .about-info {
+
+        font-size: 1rem;
+    }
+}
+
+.about-content-title {
+    font-size: 2.8rem;
+}
+
+@media only screen and (max-width: 37.5em) {
+    .about-content-title {
+        font-size: 1.6rem;
+    }
+}
+
+/*skills and skills__skills are in big screen media qurie- Fix later*/
+@media only screen and (max-width: 37.5em) {
+    .skills {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .skills__skill {
+        padding: 0.3rem 0.66rem;
+        margin-bottom: 0.5rem;
+        margin-right: 0.5rem;
+        font-size: 1.6rem;
+        background: rgba(153, 153, 153, 0.2);
+        border-radius: 5px;
+        font-weight: 230;
+        color: rgb(0, 0, 0);
+        text-align: center;
+    }
+}
+
+.about__content-skills {
+    font-size: 2.8rem;
+}
+
+@media only screen and (max-width: 37.5em) {
+    .about__content-skills {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        font-size: 1.5rem;
+    }
+}
+
+.cBtn {
+    /*padding: 2rem 2.5rem;
+    font-size: 1.6rem;
+    background-color: rgba(81, 171, 36, 0.589);
+    border-radius: 5px;*/
+    background: rgba(81, 171, 36, 0.589);
+    color: rgb(255, 255, 255);
+    text-transform: uppercase;
+    border-radius: 5px;
+    box-shadow: 0 5px 15px 0 rgba(0, 0, 0, 0.15);
+    transition: transform .3s;
+    padding: 1rem 2rem;
+}
+
+
+
+.about-heading-content,
+.about-content {
+    flex: 1;
+}
+
+
+.about-content-main,
+.about__content-skills {
+    flex: 1;
+}
+
+@media only screen and (max-width: 37.5em) {
+    .about-content-main {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 1%;
+        font-size: 1.5rem;
+    }
+}
+
+
+
+/* Add media query for smaller screen sizes */
+@media (max-width: 768px) {
+
+    /* Make the about-heading-content and about-content flex items stack vertically on smaller screens */
+    .about-heading-content,
+    .about-content {
+        flex-direction: column;
+    }
+}
+
+
+/*Projects**/
+
+.main-container {
+    max-width: 120rem;
+    margin: auto;
+    width: 92%;
+}
+
+.pHeading {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    font-size: 4rem;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+
+
+
+.projects__row-img-cont {
+    overflow: hidden;
+    width: calc(1.5fr - 5rem);
+    /*problem*/
+    margin-bottom: 2rem;
+}
+
+@media only screen and (max-width: 56.25em) {
+    .projects__row-img-cont {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+    }
+}
+
+
+/*big screen*/
+.projects__row {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+@media only screen and (max-width: 56.25em) {
+    .projects__row {
+        display: flex;
+        justify-content: center;
+
+    }
+}
+
+.projects__row-img {
+    width: 85%;
+    display: block;
+    object-fit: cover;
+}
+
+@media only screen and (max-width: 56.25em) {
+    .projects__row-img {
+        width: 65%;
+    }
+}
+
+.projects__row-content {
+    padding: 2rem 0;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 50%;
+}
+
+@media only screen and (max-width: 56.25em) {
+    .projects__row-content {
+        width: 100%;
+    }
+}
+
+.projects__row-content-title {
+    font-weight: 700;
+    font-size: 2.8rem;
+    margin-bottom: 2rem;
+}
+
+@media only screen and (max-width: 37.5em) {
+    .projects__row-content-title {
+        font-size: 2.4rem;
+    }
+}
+
+.projects__row-content-desc {
+    font-size: 2rem;
+    color: rgb(238, 12, 12);
+    max-width: 60rem;
+    line-height: 1.7;
+    margin-bottom: 3rem;
+}
+
+@media only screen and (max-width: 37.5em) {
+    .projects__row-content-desc {
+        font-size: 1.7rem;
+    }
+}
+
+
+/*More projects**/
+
+.moreProjects {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40vh;
+
+}
+
+#moreProjects {
+    padding: 1.5rem 4rem;
+    font-size: 2rem;
+}
+
+@media only screen and (max-width: 37.5em) {
+    #moreProjects {
+        padding: 1rem 1.5rem;
+        font-size: 1.5rem;
+    }
+}
+
+
+/*footer*/
+
+.footer {
+    display: flex;
+    align-items: center;
+    color: white;
+    height: 25vh;
+    background-color: black;
+    text-transform: uppercase;
+    padding: 0 10px;
+}
+
+@media only screen and (max-width: 56.25em) {
+    .footer {
+        height: 20vh;
+        padding: 0px 10px;
+    }
+}
+
+/*phone size*/
+@media only screen and (max-width: 37.5em) {
+    .footer {
+        height: auto;
+        width: auto;
+    }
+}
+
+
+.fmain-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+@media only screen and (max-width: 37.5em) {
+
+    .fmain-container {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        height: 1%;
+    }
+}
+
+.extra-curriculam {
+    margin: 1rem 0;
+}
+
+.socialMediaIconContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.social-media-icon {
+    width: 2.5rem;
+    height: 3rem;
+}
+
+.footer-icon-list {
+    display: flex;
+}
+
+.footer-icon-list li {
+    margin: 0 1rem;
+}
+
+@media only screen and (max-width: 37.5em) {
+    .footer-icon-list {
+        display: flex;
+        justify-content: center;
+        margin-right: 20%;
+    }
+
+}
+
+
+
+/*adjust content for screen sizes between 600px and 768px
+where 1em is 15.94px ~ 16px
+
+work on about section
+
+**/
+
+@media screen and (min-width: 37.5em) and (max-width: 48.2em) {
+
+
+    .about-heading-content {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        font-size: 1rem;
+    }
+
+    .about-heading {
+
+        font-size: 2.5rem;
+    }
+
+    .about-info {
+
+        font-size: 1rem;
+    }
+
+    .about-content-title {
+        font-size: 1.6rem;
+    }
+
+    .skills {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .skills__skill {
+        padding: 0.3rem 0.66rem;
+        margin-bottom: 0.5rem;
+        margin-right: 0.5rem;
+        font-size: 1.6rem;
+        background: rgba(153, 153, 153, 0.2);
+        border-radius: 5px;
+        font-weight: 230;
+        color: rgb(0, 0, 0);
+        text-align: center;
+    }
+
+
+    .about__content-skills {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        font-size: 1.5rem;
+    }
+
+
+
+
+
+
+}
