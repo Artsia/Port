@@ -201,7 +201,9 @@ li {
 @media only screen and (max-width: 48.2em) {
 
     
-    .navbar {
+   /*
+    Live nav-bar for small screens blank for now
+   .navbar {
         display: flex;
         justify-content: center;
         width: 200px;
@@ -232,7 +234,7 @@ li {
         background-color: rgba(81, 171, 36, 0.589);
         color: white;
     }
-
+*/
 
 
 }
@@ -744,10 +746,5 @@ work on about section
         align-items: center;
         font-size: 1.5rem;
     }
-
-
-
-
-
 
 }
