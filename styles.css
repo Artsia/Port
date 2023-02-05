@@ -254,7 +254,7 @@ li {
 .home {
     background-position: center;
     height: 100vh;
-    min-height: 80rem;
+    min-height: 70rem;
     max-height: 120rem;
     position: relative;
 }
@@ -532,7 +532,7 @@ li {
 }
 
 .projects__row-img {
-    width: 85%;
+    width: 75%;
     display: block;
     object-fit: cover;
 }
@@ -572,7 +572,7 @@ li {
 
 .projects__row-content-desc {
     font-size: 2rem;
-    color: rgb(238, 12, 12);
+    /*color: rgb(238, 12, 12);*/
     max-width: 60rem;
     line-height: 1.7;
     margin-bottom: 3rem;
