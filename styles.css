@@ -67,6 +67,7 @@ html {
 
     .about-content-details {
        text-align: center;
+       
     }
 
     .about-content-details-para {
@@ -246,7 +247,7 @@ li {
 
 
 
-@media only screen and (max-width: 37.5em) {
+@media only screen and (max-width: 48.2em) {
     .headerlink {
         display: none;
     }
@@ -315,19 +316,19 @@ li {
     font-size: 2rem;
 }
 
-@media only screen and (max-width: 37.5em) {
+@media only screen and (max-width: 48.2em) {
     .heading-primary {
         font-size: 4.5rem;
     }
 }
 
-@media only screen and (max-width: 37.5em) {
+@media only screen and (max-width: 48.2em) {
     .home-text {
         font-size: 2rem;
     }
 }
 
-@media only screen and (max-width: 37.5em) {
+@media only screen and (max-width: 48.2em) {
     .homeContent {
         padding: 19rem 0 13rem 0;
         margin: auto;
@@ -336,7 +337,7 @@ li {
     }
 }
 
-@media only screen and (max-width: 37.5em) {
+@media only screen and (max-width: 48.2em) {
     .home {
         height: unset;
         min-height: unset;
@@ -393,14 +394,14 @@ li {
     font-size: 2.8rem;
 }
 
-@media only screen and (max-width: 37.5em) {
+@media only screen and (max-width: 48.2em) {
     .about-content-title {
         font-size: 1.6rem;
     }
 }
 
 /*skills and skills__skills are in big screen media qurie- Fix later*/
-@media only screen and (max-width: 37.5em) {
+@media only screen and (max-width: 48.2em) {
     .skills {
         display: flex;
         flex-wrap: wrap;
@@ -423,13 +424,14 @@ li {
     font-size: 2.8rem;
 }
 
-@media only screen and (max-width: 37.5em) {
+@media only screen and (max-width: 48.2em) {
     .about__content-skills {
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
         font-size: 1.5rem;
+        padding: 10%;
     }
 }
 
@@ -460,7 +462,7 @@ li {
     flex: 1;
 }
 
-@media only screen and (max-width: 37.5em) {
+@media only screen and (max-width: 48.2em) {
     .about-content-main {
         display: flex;
         flex-direction: column;
@@ -468,6 +470,7 @@ li {
         align-items: center;
         height: 1%;
         font-size: 1.5rem;
+        padding: 10%;
     }
 }
 
@@ -569,7 +572,7 @@ li {
     margin-bottom: 2rem;
 }
 
-@media only screen and (max-width: 37.5em) {
+@media only screen and (max-width: 48.2em) {
     .projects__row-content-title {
         font-size: 2.4rem;
     }
@@ -583,7 +586,7 @@ li {
     margin-bottom: 3rem;
 }
 
-@media only screen and (max-width: 37.5em) {
+@media only screen and (max-width: 48.2em) {
     .projects__row-content-desc {
         font-size: 1.7rem;
     }
@@ -605,7 +608,7 @@ li {
     font-size: 2rem;
 }
 
-@media only screen and (max-width: 37.5em) {
+@media only screen and (max-width: 48.2em) {
     #moreProjects {
         padding: 1rem 1.5rem;
         font-size: 1.5rem;
@@ -633,7 +636,7 @@ li {
 }
 
 /*phone size*/
-@media only screen and (max-width: 37.5em) {
+@media only screen and (max-width: 48.2em) {
     .footer {
         height: auto;
         width: auto;
@@ -648,7 +651,7 @@ li {
     width: 100%;
 }
 
-@media only screen and (max-width: 37.5em) {
+@media only screen and (max-width: 48.2em) {
 
     .fmain-container {
         display: flex;
@@ -683,7 +686,7 @@ li {
     margin: 0 1rem;
 }
 
-@media only screen and (max-width: 37.5em) {
+@media only screen and (max-width: 48.2em) {
     .footer-icon-list {
         display: flex;
         justify-content: center;
