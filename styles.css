@@ -195,6 +195,7 @@ li {
 
     .aboutSection {
         margin-bottom: 10%;
+        padding: 10%;
     }
 
 
@@ -272,6 +273,7 @@ li {
     transform: translate(-50%, -50%);
     max-width: 90rem;
     width: 92%;
+    height: 50rem;
 }
 
 .home-info {
@@ -316,19 +318,19 @@ li {
     font-size: 2rem;
 }
 
-@media only screen and (max-width: 48.2em) {
+@media only screen and (max-width: 37.5em) {
     .heading-primary {
         font-size: 4.5rem;
     }
 }
 
-@media only screen and (max-width: 48.2em) {
+@media only screen and (max-width: 37.5em) {
     .home-text {
         font-size: 2rem;
     }
 }
 
-@media only screen and (max-width: 48.2em) {
+@media only screen and (max-width: 37.5em) {
     .homeContent {
         padding: 19rem 0 13rem 0;
         margin: auto;
@@ -337,7 +339,7 @@ li {
     }
 }
 
-@media only screen and (max-width: 48.2em) {
+@media only screen and (max-width: 37.5em) {
     .home {
         height: unset;
         min-height: unset;
@@ -394,14 +396,14 @@ li {
     font-size: 2.8rem;
 }
 
-@media only screen and (max-width: 48.2em) {
+@media only screen and (max-width: 37.5em) {
     .about-content-title {
         font-size: 1.6rem;
     }
 }
 
 /*skills and skills__skills are in big screen media qurie- Fix later*/
-@media only screen and (max-width: 48.2em) {
+@media only screen and (max-width: 37.5em) {
     .skills {
         display: flex;
         flex-wrap: wrap;
@@ -424,7 +426,7 @@ li {
     font-size: 2.8rem;
 }
 
-@media only screen and (max-width: 48.2em) {
+@media only screen and (max-width: 37.5em) {
     .about__content-skills {
         display: flex;
         flex-direction: column;
@@ -462,7 +464,7 @@ li {
     flex: 1;
 }
 
-@media only screen and (max-width: 48.2em) {
+@media only screen and (max-width: 37.5em) {
     .about-content-main {
         display: flex;
         flex-direction: column;
@@ -572,7 +574,7 @@ li {
     margin-bottom: 2rem;
 }
 
-@media only screen and (max-width: 48.2em) {
+@media only screen and (max-width: 37.5em) {
     .projects__row-content-title {
         font-size: 2.4rem;
     }
@@ -586,7 +588,7 @@ li {
     margin-bottom: 3rem;
 }
 
-@media only screen and (max-width: 48.2em) {
+@media only screen and (max-width: 37.5em) {
     .projects__row-content-desc {
         font-size: 1.7rem;
     }
@@ -608,7 +610,7 @@ li {
     font-size: 2rem;
 }
 
-@media only screen and (max-width: 48.2em) {
+@media only screen and (max-width: 37.5em) {
     #moreProjects {
         padding: 1rem 1.5rem;
         font-size: 1.5rem;
@@ -636,7 +638,7 @@ li {
 }
 
 /*phone size*/
-@media only screen and (max-width: 48.2em) {
+@media only screen and (max-width: 37.5em) {
     .footer {
         height: auto;
         width: auto;
@@ -651,7 +653,7 @@ li {
     width: 100%;
 }
 
-@media only screen and (max-width: 48.2em) {
+@media only screen and (max-width: 37.5em) {
 
     .fmain-container {
         display: flex;
@@ -686,7 +688,7 @@ li {
     margin: 0 1rem;
 }
 
-@media only screen and (max-width: 48.2em) {
+@media only screen and (max-width: 48.5em) {
     .footer-icon-list {
         display: flex;
         justify-content: center;
@@ -756,3 +758,6 @@ work on about section
     }
 
 }
+
+
+
