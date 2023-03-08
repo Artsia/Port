@@ -135,7 +135,7 @@ html {
     font-weight: 700;
     letter-spacing: 1px;
     /**/
-    position: fixed;
+    position: relative;/*was fixed before*/
     width: 100%;
     z-index: 1000;
     box-shadow: 0 10px 100px rgb(0 0 0 / 10%);
