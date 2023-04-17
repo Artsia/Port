@@ -6,7 +6,9 @@ body {
     overflow-x: hidden;
     overflow-y: scroll;
     font-family: 'Source Sans Pro', sans-serif;
-    background-color: #fff;
+    background-color: #fff9f9de;
+    margin: 0%;
+    padding: 0%;
 }
 
 html {
