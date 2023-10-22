@@ -2,6 +2,8 @@ import './App.css';
 import Nav from './comp/nav'
 import Project from './comp/proj'
 import img from './comp/assets/tinyUrl.gif'
+import img1 from './comp/assets/adviceFull.png'
+
 
 const projectData = [
 {
@@ -10,9 +12,9 @@ const projectData = [
   githubLink:"https://github.com/Artsia/LinkShort"
 },
 {
-  imageSrc:img,
-  liveLink:"https://linkshortnerv3.netlify.app/",
-  githubLink:"https://github.com/Artsia/LinkShort"
+  imageSrc:img1,
+  liveLink:"https://phillip-gen-advice.netlify.app/",
+  githubLink:"https://github.com/Artsia/Generate-Advicet"
 },
 {
   imageSrc:img,
