@@ -38,6 +38,7 @@ function App() {
   return (
     <div className="App">
       <Nav/>
+      
       <div id='project'>
       <div className="project-section">
         {projectData.map((project, index) => (

@@ -7,7 +7,11 @@ import './proj.css';
 function Project({ imageSrc, liveLink, githubLink }) {
   return (
     <div className="project">
-      <img src={imageSrc} alt="Project" className="projImage" />
+     <div className='divImg'>
+      <img src={imageSrc} alt="Project" className="projImage"/>
+     </div>
+     
+      
       <div className="project-links">
         <a href={liveLink} target="_blank" rel="noopener noreferrer">
           Live

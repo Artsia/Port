@@ -1,0 +1,34 @@
+.project{
+    display:flex;
+    flex-direction: column;
+    width: auto;
+    height: 100%;
+    border:1px solid rgb(199, 45, 45);
+    margin:0px 1%;
+
+    
+}
+
+.divImg{
+    height: 85%;
+    border:1px solid rgb(45, 53, 199);
+
+}
+
+.projImage{
+    width:100%;
+    height: 100%;
+}
+
+.project-links{
+    display:flex;
+    justify-content: space-evenly;
+}
+
+.project-links a{
+   text-decoration: none;
+}
+
+a:visited{
+    color:rgba(200, 146, 0, 0.865);
+}
