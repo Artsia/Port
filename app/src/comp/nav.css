@@ -7,6 +7,10 @@
  
 }
 
+a{
+  text-decoration: none;
+}
+
 .nav-list {
   list-style: none;
   display: flex;

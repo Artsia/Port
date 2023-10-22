@@ -3,7 +3,7 @@
     flex-direction: column;
     width: auto;
     height: 100%;
-    border:1px solid rgb(199, 45, 45);
+    /*border:1px solid rgb(199, 45, 45);*/
     margin:0px 1%;
 
     
@@ -11,17 +11,23 @@
 
 .divImg{
     height: 85%;
-    border:1px solid rgb(45, 53, 199);
+    /*border:1px solid rgb(45, 53, 199);*/
+  
+   
 
 }
 
 .projImage{
-    width:100%;
+   
+    width: 50%;
     height: 100%;
+    
+    
 }
 
 .project-links{
-    display:flex;
+    display:flex; 
+    width: 50%;
     justify-content: space-evenly;
 }
 
@@ -30,5 +36,5 @@
 }
 
 a:visited{
-    color:rgba(200, 146, 0, 0.865);
+    color:rgba(13, 200, 0, 0.865);
 }
