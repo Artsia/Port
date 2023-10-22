@@ -1,0 +1,27 @@
+/* styles.css */
+.navbar {
+ 
+  display: flex;
+  justify-content:flex-end;
+  padding: 1rem;
+ 
+}
+
+.nav-list {
+  list-style: none;
+  display: flex;
+}
+
+.nav-item {
+  margin-right: 20px;
+}
+
+@media (max-width: 768px) {
+  .nav-list {
+    flex-direction: column;
+  }
+
+  .nav-item {
+    margin-bottom: 10px;
+  }
+}
