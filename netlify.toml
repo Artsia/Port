@@ -1,7 +1,0 @@
-# netlify.toml
-
-[[redirects]]
-  from = "https://phillipkataswa.live/*"
-  to = "https://phillipkataswa.netlify.app/:splat"
-  status = 301
-  conditions = {Language = ["en"]}
